@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello" />
+
+    
+    <Button 
+        android:id="@+id/answerId"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="创建游戏"/>
+    
+    <Button 
+        android:id="@+id/oneId"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="游戏一"/>
+    
+    <Button 
+        android:id="@+id/twoId"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="游戏二"/>
+    
+    <Button 
+        android:id="@+id/threeId"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="游戏三"/>
+        
+    <Button 
+        android:id="@+id/exitId"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="退出"/>
+
+</LinearLayout>
